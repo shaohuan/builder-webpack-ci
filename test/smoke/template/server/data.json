@@ -1,0 +1,20 @@
+{
+    "error": [],
+    "extra": [],
+    "data": {
+        "list": [{
+            "banner_cover": "https:\/\/static001.geekbang.org\/resource\/image\/5e\/ea\/5eccfe6034b271d895601fdc51369fea.jpg",
+            "banner_redirect_type": "url",
+            "banner_redirect_param": "https:\/\/service.geekbang.org\/goods\/list?category=7&page=1?utm_source=timeweb&utm_medium=leftbanner&utm_campaign=vipcard",
+            "banner_title": "年卡活动推广",
+            "score": 35933367368,
+            "banner_utm_term": "lecture8",
+            "id": 5907
+        }],
+        "page": {
+            "count": 20,
+            "more": false
+        }
+    },
+    "code": 0
+}
