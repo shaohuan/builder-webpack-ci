@@ -6,7 +6,7 @@ describe('webpack.base.js test case', () => {
   // console.log(baseConfig);
 
   it('entry', () => {
-    assert.equal(baseConfig.entry.index, '/Users/huan.shao/Development/geek-webpack-tutorial/my-project/builder-webpack/test/smoke/template/src/index/index.js');
-    assert.equal(baseConfig.entry.search, '/Users/huan.shao/Development/geek-webpack-tutorial/my-project/builder-webpack/test/smoke/template/src/search/index.js');
+    assert.equal(baseConfig.entry.index.indexOf('builder-webpack/test/smoke/template/src/index/index.js') > -1);
+    assert.equal(baseConfig.entry.search.indexOf('builder-webpack/test/smoke/template/src/search/index.js') > -1);
   })
 });
