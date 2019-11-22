@@ -4,7 +4,7 @@ const assert = require('assert');
 describe('webpack.base.js test case', () => {
   const baseConfig = require('../../lib/webpack.base.js');
   // console.log(baseConfig);
-  console.log('entry files are ' + baseConfig.entry);
+  console.log('entry files are ' + JSON.stringify(baseConfig.entry));
   it('entry', () => {
 
     assert.equal(baseConfig.entry.index.indexOf('builder-webpack/test/smoke/template/src/index/index.js') > -1, true);
